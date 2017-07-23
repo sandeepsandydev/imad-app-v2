@@ -1,15 +1,20 @@
 {
-  "name": "imad-2016-base",
-  "version": "0.1.0",
-  "description": "IMAD 2016 course app",
-  "main": "server.js",
+  "name": "tempo",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./bin/www"
   },
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "express": "^4.14.0",
-    "morgan": "^1.7.0"
+    "body-parser": "~1.17.1",
+    "cookie-parser": "~1.4.3",
+    "cookie-session": "^2.0.0-beta.2",
+    "debug": "~2.6.3",
+    "ejs": "~2.5.6",
+    "express": "~4.15.2",
+    "express-session": "^1.15.4",
+    "morgan": "~1.8.1",
+    "mysql": "^2.13.0",
+    "serve-favicon": "~2.4.2"
   }
 }
